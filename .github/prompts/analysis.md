@@ -3,7 +3,7 @@
 Analizza i seguenti percorsi del progetto:
 
 ```
-<PATH-LIST>
+*
 ```
 
 Crea `docs/current-state.md` con:
