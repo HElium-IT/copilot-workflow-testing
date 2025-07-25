@@ -17,12 +17,16 @@ This is a **multi-layered instruction orchestration system** built around struct
 ### File-Pattern-Based Instructions
 The `.github/instructions/` directory contains specialized instruction files with YAML frontmatter defining their scope:
 
-- **`flow.instructions.md`** - Core Solo-Dev Copilot 5-phase TDD workflow (`applyTo: '**'`)
-- **`python.instructions.md`** - Python coding conventions, PEP 8, type hints (`applyTo: '**/*.py'`)
+- **`containerization-docker-best-practices.instructions.md`** - Comprehensive Docker best practices (`applyTo: '*'`)
 - **`github-actions-ci-cd-best-practices.instructions.md`** - Comprehensive CI/CD patterns (`applyTo: '.github/workflows/*.yml'`)
-- **`vuejs3.instructions.md`** - Vue.js 3 with Composition API standards (`applyTo: '**/*.vue, **/*.ts, **/*.js, **/*.scss'`)
+- **`markdown.instructions.md`** - Documentation and content creation standards (`applyTo: '**/*.md'`)
+- **`performance-optimization.instructions.md`** - Frontend, backend, and database best practices (`applyTo: '*'`)
+- **`python.instructions.md`** - Python coding conventions, PEP 8, type hints (`applyTo: '**/*.py'`)
+- **`security-and-owasp.instructions.md`** - OWASP Top 10 and industry security practices (`applyTo: '*'`)
+- **`self-explanatory-code-commenting.instructions.md`** - Code commenting guidelines (`applyTo: '**'`)
 - **`spec-driven-workflow-v1.instructions.md`** - Requirements → Design → Tasks methodology (`applyTo: '**'`)
-- **`markdown.instructions.md`** - Documentation standards (`applyTo: '**/*.md'`)
+- **`taming-copilot.instructions.md`** - Prevent Copilot from wreaking havoc across your codebase (`applyTo: '**'`)
+- **`vuejs3.instructions.md`** - Vue.js 3 with Composition API standards (`applyTo: '**/*.vue, **/*.ts, **/*.js, **/*.scss'`)
 
 ### Workflow Methodologies
 
